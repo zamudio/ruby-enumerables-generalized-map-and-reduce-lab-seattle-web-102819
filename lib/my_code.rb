@@ -1,1 +1,2 @@
-# Your Code Here
+def general_map(source_array)
+  
