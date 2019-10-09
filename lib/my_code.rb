@@ -1,4 +1,4 @@
-def general_map(source_array)
+def map(source_array)
   fnl_array = []
   i = 0
   while i < source_array.length do
@@ -8,7 +8,7 @@ def general_map(source_array)
   fnl_array
 end
 
-def general_reduce(source_array, starting_point = nil)
+def reduce(source_array, starting_point = nil)
   i = 0
   if starting_point
     total = starting_point
